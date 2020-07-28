@@ -41,6 +41,7 @@ app.post("/:device/send/notification", (req, res) => {
     notification: {
       title: data.payload.title,
       body: data.payload.message,
+      icon: 'https://picsum.photos/200/300'
     },
   };
 
